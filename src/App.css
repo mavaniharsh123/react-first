@@ -1,11 +1,12 @@
 .App {
   text-align: center;
+  margin: 77px;
+  border: 2px solid #d3c1c1;
+  border-radius: 5px;
+  height: 500px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

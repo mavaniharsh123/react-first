@@ -1,0 +1,74 @@
+body{
+    background-attachment: fixed;
+    background: #80e1d9;
+}
+.myFunction { 
+    color : #f8bc3b;
+    height : 300px;
+    width : 540px;
+    border-radius: 9px;
+    border: 4px solid black;
+    background-color: rgb(94, 82, 82);
+    line-height: 80px;
+    text-align: center;
+    
+}
+.myClass { 
+    color : orange;
+    height : 300px;
+    width : 540px;
+    border-radius: 9px;
+    border: 4px solid black;
+    background-color: rgb(94, 82, 82);
+    line-height: 80px;
+    text-align: center;
+}
+.mytag { 
+    color: lawngreen;
+}
+.mybtn{
+    display: flex;
+    height:  100px;
+    width:  100%;
+    justify-content: space-around;
+    top : 40px
+}
+.leftbtn{
+    height: 76px;
+    width: 30%;
+    border-radius: 10px;
+    background-color: #e5dde1;
+    border: 2px solid #3c7ca7;
+    color: #3c7ca7;
+    font-weight: 700;
+
+}
+.leftbtn:hover {
+    
+    background-color: #a9a2d7;
+    color: #d8e0e5;
+}
+.rightbtn{
+    height: 76px;
+    width: 30%;
+    border-radius: 10px;
+    background-color: #e5dde1;
+    border: 2px solid #3c7ca7;
+    color: #3c7ca7;
+    font-weight: 700;
+    
+}
+
+.rightbtn:hover {
+    
+    background-color: #a9a2d7;
+    color: #d8e0e5;
+}
+
+.flex--box {
+    display: flex;
+    height: 600px;
+    width : 100%;
+    justify-content: space-around;
+    margin-top : 210px;
+}
