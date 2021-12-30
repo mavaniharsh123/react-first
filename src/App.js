@@ -50,28 +50,3 @@ export default class App extends Component {
   }
 }
 
-
-// import React, { Component } from 'react'
-
-// export default class App extends Component {
-//   constructor(){
-//     super();
-//     this.state = {
-//       name: "harsh"
-//     }
-//   }
-//   handleChange = () =>{
-//     this.setState({
-//       name: "mavani"
-//     });
-//   }
-//   render() {
-//     return (
-//       <div>
-//       <h1>{this.state.name}</h1>
-//         <button onClick={this.handleChange}>my name is </button>
-//       </div>
-//     )
-//   }
-// }
-
