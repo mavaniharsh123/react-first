@@ -23,7 +23,7 @@ export default class App extends Component {
   render() {
     return (
       <div className='App'>
-      <h1 style={{color : "green", marginLeft: "380px"}}>Styling using Functional and Class Components</h1>
+      <h1 className='myh1'>Styling using Functional and Class Components</h1>
       <div className='mybtn'>
         <button className='leftbtn' onClick={ this.funClickHandler}> To see styling in function component </button>
         <button className="rightbtn" onClick={ this.classClickHandler }>To see styling in class component</button>
